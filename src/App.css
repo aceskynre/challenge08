@@ -1,0 +1,120 @@
+body {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+
+.menu {
+  list-style: none;
+  display: inline;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu_item a:hover {
+  font-weight: 700;
+  color: black;
+}
+
+.header button,
+.card-sewa button {
+  border: 0;
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  background-color: #5cb85f;
+}
+
+.header button:hover,
+.card-sewa button:hover {
+  cursor: pointer;
+  background-color: #5cb111;
+}
+
+.header {
+  background-color: #f1f3ff;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_desc {
+  max-width: 100%;
+  margin-right: 32px;
+  padding: 60px 0;
+}
+
+.main_desc h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  width: 568px;
+  height: 108px;
+  left: 136px;
+  top: 177px;
+}
+
+.main_desc p {
+  width: 90%;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  top: 177px;
+}
+
+.car_img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main_img {
+  margin-right: -116px;
+  position: relative;
+}
+
+
+.footer {
+  padding: 60px 0 30px 126px;
+  margin-top: 140px;
+}
+.footer-link p {
+  line-height: 24px;
+  align-items: center;
+  margin-left: 0px;
+  font-weight: 500;
+  margin-left: 6rem;
+}
+
+.footer-link p {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link p:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.footer-img {
+  margin-right: 10px;
+}
