@@ -28,7 +28,7 @@ export default function DetailPesanan() {
 
   useEffect(() => {
     getCarData();
-  }, [item])
+  }, [item]);
 
   const classes = useStyles();
   return (
